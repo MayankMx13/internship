@@ -1,0 +1,173 @@
+.card {
+    width: 356px;
+    height: 561px;
+    padding: 29px 31px 26px 36px;
+    gap: 10px;
+    border-radius: 30px;
+    border: 1px;
+    background-color: #FFF7E2;
+    box-shadow: 0px 4px 12.5px 0px #00000012;
+    padding: 29px 36px;
+
+    .main {
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: auto;
+        height: auto;
+        width: 289px;
+        height: 506px;
+        gap: 32px;
+
+
+        .imgcontainer {
+            position: relative;
+
+            span {
+                position: absolute;
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                width: 70px;
+                height: 28px;
+                top: 126px;
+                left: 28%;
+                padding: 4px 12px 4px 12px;
+                border-radius: 17px;
+                background-color: black;
+                color: white;
+                font-family: DINproBold;
+
+
+            }
+        }
+
+        .details {
+
+            .detail {
+                display: flex;
+                flex-direction: column;
+
+                gap: 16px;
+
+                h3 {
+                    font-family: Nunito;
+                    font-size: 32px;
+                    font-weight: 700;
+                    line-height: 28px;
+                    letter-spacing: -0.01em;
+                    text-align: left;
+
+
+                }
+
+                .specifics {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 7px;
+
+                    .specific {
+                        color: #646665;
+                        margin-left: 10px;
+
+                        img {
+                            width: 16px;
+                        }
+
+                        display: flex;
+                        align-items: center;
+                        gap: 30px;
+                        font-family: Nunito;
+                        font-size: 16px;
+                        font-weight: 400;
+                        line-height: 20px;
+                        letter-spacing: -0.01em;
+                        text-align: left;
+
+
+                    }
+
+                    .specific2 {
+                        font-family: Nunito;
+                        font-size: 16px;
+                        font-weight: 600;
+                        line-height: 20px;
+                        letter-spacing: -0.01em;
+                        text-align: left;
+
+
+                    }
+                }
+
+                .fees {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    gap: 4px;
+
+                    .fee {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        width: 136px;
+                        height: 57px;
+                        border-radius: 10px;
+                        padding: 8px 8px 8px 8px;
+                        font-size: 12px;
+                        border: 1px solid #3A643B63;
+                        font-family: Nunito;
+                        font-weight: 600;
+                        line-height: 20px;
+                        letter-spacing: -0.01em;
+                        text-align: left;
+
+                    }
+
+                    .cat2 {
+                        color: #3A643B;
+                    }
+                }
+            }
+
+            .buttons {
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                margin-top: 32px;
+
+                button {
+                    width: 284px;
+                    height: 42px;
+                    width: auto;
+                    height: auto;
+                    border-radius: 8px;
+                    border: 1px;
+                    padding: 15px 78px 15px 78px;
+                }
+
+                .button1 {
+                    color: #3A643B;
+                    background-color: #FFFFFF;
+                    border: 1px solid #3A643B;
+                }
+
+                a {
+                    text-decoration: none;
+                    color: #3A643B;
+                }
+
+                .button2 {
+                    color: #ffffff;
+                    background-color: #3A643B;
+
+
+                }
+
+            }
+        }
+    }
+
+}

@@ -1,0 +1,104 @@
+.nav {
+
+    width: 100%;
+    height: 94px;
+    background-color: #FFF7E2;
+
+
+    .container {
+        min-height: 56px;
+        min-width: 1232px;
+
+        display: flex;
+        align-items: center;
+        padding-top: 23px;
+        padding-left: 104px;
+        padding-right: 104px;
+        justify-content: space-between;
+        gap: 266px;
+
+
+        .left {
+            display: flex;
+            align-items: center;
+
+            gap: 80px;
+
+            ul {
+                display: flex;
+                align-items: center;
+                gap: 40px;
+                font-family: DINpro;
+                font-weight: 700;
+
+
+                li {
+                    list-style: none;
+                    font-size: 20px;
+                }
+
+                li:hover {
+                    color: #3A643B;
+                }
+
+                li:visited {
+                    color: #3A643B;
+                }
+
+            }
+        }
+
+        .right {
+            display: flex;
+            align-items: center;
+
+
+            gap: 16px;
+
+            .login {
+                width: 118px;
+                height: 56px;
+                padding: 11px 27px;
+                border-radius: 11px;
+                border: 1px solid #3A643B;
+                opacity: 0px;
+                background-color: #FFF7E2;
+                font-family: DINPromd;
+                font-size: 24px;
+                font-weight: 500;
+                line-height: 30.91px;
+                text-align: left;
+
+
+
+            }
+
+
+            .signup {
+                display: flex;
+                align-items: center;
+                width: 163px;
+                height: 56px;
+                padding: 16px 39px 20px 39px;
+                gap: 10px;
+                border-radius: 11px;
+                font-family: DINPromd;
+                font-size: 24px;
+                font-weight: 500;
+                line-height: 30.91px;
+                text-align: left;
+                background: #3A643B;
+                border: none;
+                text-align: center;
+                color: white;
+
+            }
+        }
+
+
+
+
+    }
+
+
+}

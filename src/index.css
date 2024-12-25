@@ -1,0 +1,37 @@
+@font-face {
+  font-family: 'GothamRnd';
+  src: url(./assets/gothamrnd_light.otf);
+}
+
+@font-face {
+  font-family: 'GothamBold';
+  src: url(./assets/gothamrnd_bold.otf);
+}
+
+@font-face {
+  font-family: 'Gothammed';
+  src: url(./assets/gothamrnd_medium.otf);
+}
+
+
+@font-face {
+  font-family: 'DINpro';
+  src: url(./assets/dinpro_light.otf);
+}
+
+@font-face {
+  font-family: 'DINpromd';
+  src: url(./assets/dinpro_medium.otf);
+}
+
+@font-face {
+  font-family: 'DINproBold';
+  src: url(./assets/dinpro_bold.otf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: GothamRnd;
+}
